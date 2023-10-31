@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ezbs
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0027-tenant/ci1t-43256-0027-app/devfile-sample-ezbs@sha256:153d11ca505ce1c3f2ceeb8f26019df4c312d30805f242584806f619badb549f
         name: my-nodejs
         ports:
         - containerPort: 3001
